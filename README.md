@@ -1,4 +1,5 @@
 # 2b_brainers
 
-TODO: Enter the cookbook description here.
+Demo for 2Brains Talks
 
+Have Fun! 
