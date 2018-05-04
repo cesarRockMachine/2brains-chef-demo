@@ -8,3 +8,4 @@ if node['platform'] == 'windows'
   include_recipe 'apache2-windows'
 else
   include_recipe 'apache2'
+end 
