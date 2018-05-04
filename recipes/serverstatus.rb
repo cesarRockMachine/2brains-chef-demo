@@ -12,3 +12,8 @@ cookbook_file location do
   group 'root'
   mode '0644'
 end
+
+service 'httpd' do
+  supports status: true
+  action :restart
+end
