@@ -4,7 +4,7 @@ sudo: false
 addons:
   apt:
     sources:
-      - chef-current-precise
+      - chef-current-trusty
     packages:
       - chefdk
 
@@ -25,5 +25,5 @@ script:
   - /opt/chefdk/embedded/bin/chef --version
   - /opt/chefdk/embedded/bin/cookstyle --version
   - /opt/chefdk/embedded/bin/foodcritic --version
-  - /opt/chefdk/embedded/bin/cookstyle .
-  - /opt/chefdk/embedded/bin/foodcritic .  
+  - /opt/chefdk/embedded/bin/cookstyle ccelis_demo
+  - /opt/chefdk/embedded/bin/foodcritic ccelis_demo
