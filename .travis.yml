@@ -26,4 +26,4 @@ script:
   - /opt/chefdk/embedded/bin/cookstyle --version
   - /opt/chefdk/embedded/bin/foodcritic --version
   - /opt/chefdk/embedded/bin/cookstyle ccelis_demo
-  - /opt/chefdk/embedded/bin/foodcritic ccelis_demo
+  - /opt/chefdk/embedded/bin/foodcritic  --cookbook-path ccelis_demo
